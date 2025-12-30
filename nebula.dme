@@ -4120,7 +4120,6 @@
 #include "maps\~mapsystem\maps_unit_testing.dm"
 #include "maps\~unit_tests\unit_testing.dm"
 #include "mods\_modpack.dm"
-<<<<<<< HEAD
 #include "mods\content\mundane.dm"
 #include "mods\content\scaling_descriptors.dm"
 #include "mods\content\fallout\_aridhearts.dm"
@@ -4155,8 +4154,6 @@
 #include "mods\content\fallout\mobs\monster.dm"
 #include "mods\content\fallout\subsystem\_defines.dm"
 #include "mods\content\fallout\subsystem\daynight.dm"
-=======
 #include "mods\~compatibility\~compatibility.dm"
->>>>>>> cdbf306621be4890911404efbfe0443ca1c43842
 #include "~code\global_init.dm"
 // END_INCLUDE
