@@ -1,7 +1,7 @@
 /datum/map/ministation
 	default_job_type = /datum/job/ministation/wastrel
 	default_department_type = /decl/department/wasteland
-	id_hud_icons = 'maps/ministation/hud.dmi'
+	hud_icons = 'maps/ministation/hud.dmi'
 	allowed_jobs = list(
 	//Where the NCR homies at
 		//Command roles

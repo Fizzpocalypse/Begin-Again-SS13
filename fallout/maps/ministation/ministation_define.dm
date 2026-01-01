@@ -4,8 +4,8 @@
 	path = "ministation"
 	ground_noun = "floor"
 
-	station_name = "Space Station Zebra"
-	station_short = "Zebra"
+	station_name = "Battle Mountain"
+	station_short = "Battle Mountain"
 
 	dock_name     = "Finite Beginnings Free Dock"
 	boss_name     = "Trade Administration"
@@ -14,7 +14,7 @@
 	company_short = "RD"
 
 
-	lobby_screens = list('maps/ministation/ministation_lobby.png')
+	lobby_screens = list('fallout/maps/ministation/ministation_lobby.png')
 
 	//TEMPORARY NOTE: Evac messages are temporary until its set up properly. Make sure they're changed later.
 	emergency_shuttle_leaving_dock = "Attention all crew members: the escape shuttle will be arriving shortly, please prepare to board."

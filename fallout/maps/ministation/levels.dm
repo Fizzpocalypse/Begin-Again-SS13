@@ -30,5 +30,27 @@
 	time_in_cycle = rand(cycle_duration)
 	..()
 
+/datum/level_data/main_level/ministation/level1
+	name = "Wasteland"
+	level_id = "wasteland"
+
+	exterior_atmosphere = list(
+		/decl/material/gas/oxygen =   MOLES_O2STANDARD,
+		/decl/material/gas/nitrogen = MOLES_N2STANDARD
+	)
+
+
 /obj/abstract/level_data_spawner/ministation
 	level_data_type = /datum/level_data/main_level/ministation
+
+/obj/abstract/level_data_spawner/ministation/wasteland
+	level_data_type = /datum/level_data/main_level/ministation/level1
+
+///obj/abstract/level_data_spawner/ministation/wasteland2
+	//level_data_type = /datum/level_data/main_level/ministation/level2
+
+///obj/abstract/level_data_spawner/ministation/wasteland3
+	//level_data_type = /datum/level_data/main_level/ministation/level3
+
+///obj/abstract/level_data_spawner/ministation
+	//level_data_type = /datum/level_data/main_level/ministation

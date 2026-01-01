@@ -1,12 +1,14 @@
 /area/fallout
 	name = "Fallout Area"
-	icon_state = "dark_blue"
+	icon = 'mods/content/fallout/icons/turf/falloutareas.dmi'
+	icon_state = "purple"
 	has_gravity =         TRUE
 	requires_power =      FALSE
 
 
 /area/fallout/outdoors
 	name = "Wasteland"
+	icon_state = "wasteland"
 	sound_env = PLAIN
 	ambience = list(
 		'sound/effects/wind/desert0.ogg',
@@ -23,6 +25,7 @@
 	//BOS Areas
 /area/fallout/brotherhood
 	name = "Brotherhood of Steel"
+	icon_state = "brotherhood"
 
 /area/fallout/brotherhood/leisure
 	name = "Brotherhood of Steel Leisure Area"
@@ -51,15 +54,48 @@
 	//Not BOS areas
 /area/fallout/ncr
 	name = "New California Republic Camp"
+	icon_state = "ncr"
 
 /area/fallout/legion
 	name = "Caesar's Legion Camp"
+	icon_state = "legion"
 
 /area/fallout/tribal
-	name = "Tribal Camp"
+	name = "\improper Tribal Camp"
+	icon_state = "village"
 
 /area/fallout/town
 	name = "Town"
+	icon_state = "city"
 
-/area/fallout/town/inner
-	name = "Town Inner Wall"
+/area/fallout/followers
+	name = "\improper Followers of the Apocalypse Clinic"
+	icon_state = "followers"
+
+/area/fallout/enclave
+	name = "\improper Enclave Bunker"
+	icon_state = "enclave"
+
+/area/fallout/tunnel
+	name = "Tunnel"
+	icon_state = "tunnel"
+
+/area/fallout/sewer
+	name = "\improper Sewers"
+	icon_state = "sewer"
+
+/area/fallout/cavern
+	name = "Cavern"
+	icon_state = "caves"
+
+/area/fallout/subway
+	name = "Subway Tunnel"
+	icon_state = "subway"
+
+/area/fallout/casino
+	name = "Casino"
+	icon_state = "casino"
+
+/area/fallout/khamp
+	name = "\improper Great Khan Encampment"
+	icon_state = "khamp"
