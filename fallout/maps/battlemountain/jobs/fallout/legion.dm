@@ -1,4 +1,4 @@
-/datum/job/ministation/legion
+/datum/job/battlemountain/legion
 	title = "Legion Template"
 	supervisors = "absolutely everyone"
 	economic_power = 1
@@ -10,7 +10,7 @@
 	skill_points = 20
 
 
-/datum/job/ministation/legion/centurion
+/datum/job/battlemountain/legion/centurion
 	title = "Centurion"
 	total_positions = 1
 	spawn_positions = 1
@@ -29,7 +29,7 @@
 	skill_points = 32
 
 
-/datum/job/ministation/legion/dec
+/datum/job/battlemountain/legion/dec
 	title = "Recruit Decanus"
 	total_positions = 1
 	spawn_positions = 1
@@ -51,20 +51,20 @@
 	)
 	skill_points = 28
 
-/datum/job/ministation/legion/dec/vet
+/datum/job/battlemountain/legion/dec/vet
 	title = "Veteran Decanus"
 	outfit_type = /decl/outfit/job/legion/decanus/vet
 	skill_points = 32
 
 
-/datum/job/ministation/legion/dec/prime
+/datum/job/battlemountain/legion/dec/prime
 	title = "Prime Decanus"
 	outfit_type = /decl/outfit/job/legion/decanus/prime
 	skill_points = 30
 
 
 
-/datum/job/ministation/legion/vet
+/datum/job/battlemountain/legion/vet
 	title = "Veteran Legionnaire"
 	total_positions = 2
 	spawn_positions = 2
@@ -82,7 +82,7 @@
 
 	skill_points = 26
 
-/datum/job/ministation/legion/prime
+/datum/job/battlemountain/legion/prime
 	title = "Prime Legionnaire"
 	total_positions = 3
 	spawn_positions = 3
@@ -99,7 +99,7 @@
 
 	skill_points = 24
 
-/datum/job/ministation/legion/recruit
+/datum/job/battlemountain/legion/recruit
 	title = "Recruit Legionnaire"
 	total_positions = 5
 	spawn_positions = 5
@@ -114,7 +114,7 @@
 
 	skill_points = 20
 
-/datum/job/ministation/legion/camp
+/datum/job/battlemountain/legion/camp
 	title = "Camp Follower"
 	total_positions = -1
 	spawn_positions = -1
@@ -128,7 +128,7 @@
 	)
 	skill_points = 32	//Needs plenty of points to specialize
 
-/datum/job/ministation/legion/camp/auxilia
+/datum/job/battlemountain/legion/camp/auxilia
 	title = "Legion Auxillia"
 	total_positions = -1
 	spawn_positions = -1
@@ -136,7 +136,7 @@
 	outfit_type = /decl/outfit/job/legion/auxilia
 	skill_points = 32	//Needs plenty of points to specialize
 
-/datum/job/ministation/legion/scout
+/datum/job/battlemountain/legion/scout
 	title = "Legion Scout"
 	total_positions = 3
 	spawn_positions = 3

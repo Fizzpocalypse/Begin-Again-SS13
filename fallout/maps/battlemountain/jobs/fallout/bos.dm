@@ -1,4 +1,4 @@
-/datum/job/ministation/bos
+/datum/job/battlemountain/bos
 	title = "Initiate"
 	total_positions = 3
 	spawn_positions = 3
@@ -16,7 +16,7 @@
 
 
 
-/datum/job/ministation/bos/knight
+/datum/job/battlemountain/bos/knight
 	title = "Knight"
 	total_positions = 3
 	spawn_positions = 3
@@ -37,7 +37,7 @@
 
 
 
-/datum/job/ministation/bos/snrknight
+/datum/job/battlemountain/bos/snrknight
 	title = "Senior Knight"
 	total_positions = 1
 	spawn_positions = 1
@@ -61,7 +61,7 @@
 
 
 
-/datum/job/ministation/bos/headknight
+/datum/job/battlemountain/bos/headknight
 	title = "Knight-Captain"
 	total_positions = 1
 	spawn_positions = 1
@@ -86,7 +86,7 @@
 	skill_points = 28				//These guys are also engineers to they might need a few more skill points
 
 
-/datum/job/ministation/bos/scribe
+/datum/job/battlemountain/bos/scribe
 	title = "Scribe"
 	total_positions = 3
 	spawn_positions = 3
@@ -110,7 +110,7 @@
 	skill_points = 18			//They start with very high skills
 
 
-/datum/job/ministation/bos/snrscribe
+/datum/job/battlemountain/bos/snrscribe
 	title = "Proctor"
 	total_positions = 1
 	spawn_positions = 1
@@ -134,7 +134,7 @@
 	skill_points = 18			//They start with very high skills
 
 
-/datum/job/ministation/bos/headscribe
+/datum/job/battlemountain/bos/headscribe
 	title = "Head Scribe"
 	total_positions = 1
 	spawn_positions = 1
@@ -161,7 +161,7 @@
 
 
 
-/datum/job/ministation/bos/paladin
+/datum/job/battlemountain/bos/paladin
 	title = "Paladin"
 	total_positions = 1
 	spawn_positions = 1
@@ -177,7 +177,7 @@
 	skill_points = 18	//They are JUST meant to kill and not much else
 
 
-/datum/job/ministation/bos/snrpaladin
+/datum/job/battlemountain/bos/snrpaladin
 	title = "Senior Paladin"
 	total_positions = 1
 	spawn_positions = 1
@@ -193,7 +193,7 @@
 	skill_points = 18	//They are JUST meant to kill and not much else
 
 
-/datum/job/ministation/bos/headpaladin
+/datum/job/battlemountain/bos/headpaladin
 	title = "Head Paladin"
 	total_positions = 1
 	spawn_positions = 1

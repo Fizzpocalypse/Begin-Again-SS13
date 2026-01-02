@@ -1,4 +1,4 @@
-/datum/job/ministation/ncr
+/datum/job/battlemountain/ncr
 	title = "NCR Recruit"
 	total_positions = 4
 	spawn_positions = 4
@@ -16,7 +16,7 @@
 	skill_points = 20
 
 
-/datum/job/ministation/ncr/trooper
+/datum/job/battlemountain/ncr/trooper
 	title = "NCR Trooper"
 	total_positions = 4
 	spawn_positions = 4
@@ -30,7 +30,7 @@
 
 
 //NCO Roles
-/datum/job/ministation/ncr/nco
+/datum/job/battlemountain/ncr/nco
 	title = "NCR Corporal"
 	total_positions = 2
 	spawn_positions = 2
@@ -49,7 +49,7 @@
 	skill_points = 28	//Higher ranks get more skills.
 
 
-/datum/job/ministation/ncr/nco/sergeant
+/datum/job/battlemountain/ncr/nco/sergeant
 	title = "NCR Sergeant"
 	outfit_type = /decl/outfit/job/ncr/sergeant
 	alt_titles = list()
@@ -57,7 +57,7 @@
 	skill_points = 30	//Higher ranks get more skills.
 
 
-/datum/job/ministation/ncr/nco/firstsergeant
+/datum/job/battlemountain/ncr/nco/firstsergeant
 	title = "NCR First Sergeant"
 	outfit_type = /decl/outfit/job/ncr/first
 	alt_titles = list()
@@ -65,7 +65,7 @@
 	skill_points = 32	//Higher ranks get more skills.
 
 //Officers
-/datum/job/ministation/ncr/co
+/datum/job/battlemountain/ncr/co
 	title = "NCR Commanding Officer"
 	total_positions = 1
 	spawn_positions = 1
@@ -88,7 +88,7 @@
 
 
 //Specialist jobs
-/datum/job/ministation/ncr/osi
+/datum/job/battlemountain/ncr/osi
 	title = "OSI Researcher"
 	total_positions = 1
 	spawn_positions = 1
@@ -111,7 +111,7 @@
 	skill_points = 32	//Higher ranks get more skills.
 
 
-/datum/job/ministation/ncr/supply
+/datum/job/battlemountain/ncr/supply
 	title = "OSI Cadet"
 	total_positions = 2
 	spawn_positions = 2
@@ -126,7 +126,7 @@
 	skill_points = 20	//Higher ranks get more skills.
 
 
-/datum/job/ministation/ncr/offduty
+/datum/job/battlemountain/ncr/offduty
 	title = "NCR Off-Duty"
 	total_positions = 4
 	spawn_positions = 4
@@ -137,7 +137,7 @@
 	skill_points = 20
 
 
-/datum/job/ministation/ncr/specialist
+/datum/job/battlemountain/ncr/specialist
 	title = "NCR Specialist"
 	total_positions = 2
 	spawn_positions = 2
@@ -166,7 +166,7 @@
 
 
 //Rangers
-/datum/job/ministation/ncr/ranger
+/datum/job/battlemountain/ncr/ranger
 	title = "NCR Ranger"
 	total_positions = 2
 	spawn_positions = 2
@@ -189,7 +189,7 @@
 	skill_points = 30	//Higher ranks get more skills.
 
 
-/datum/job/ministation/ncr/sgtranger
+/datum/job/battlemountain/ncr/sgtranger
 	title = "NCR Ranger Sergeant"
 	total_positions = 1
 	spawn_positions = 1
@@ -212,7 +212,7 @@
 	skill_points = 32	//Higher ranks get more skills.
 
 
-/datum/job/ministation/ncr/vetranger
+/datum/job/battlemountain/ncr/vetranger
 	title = "NCR Veteran Ranger"
 	total_positions = 1
 	spawn_positions = 1

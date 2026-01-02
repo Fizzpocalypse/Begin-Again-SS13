@@ -13,7 +13,7 @@ Now poorly imported for Nebula!
 	#include "../../mods/species/serpentid/_serpentid.dme"*/
 	#include "../../../mods/content/fallout/_aridhearts.dme"
 
-	#define USING_MAP_DATUM /datum/map/ministation
+	#define USING_MAP_DATUM /datum/map/battlemountain
 
 
 	#include "ministation.dmm"
@@ -22,9 +22,9 @@ Now poorly imported for Nebula!
 
 
 	#include "ministation_areas.dm"
-	#include "ministation_departments.dm"
+	#include "battlemountain_departments.dm"
 
-	#include "ministation_jobs.dm"
+	#include "battlemountain_jobs.dm"
 	#include "ministation_shuttles.dm"
 	#include "levels.dm"
 

@@ -1,4 +1,4 @@
-/datum/job/ministation/town
+/datum/job/battlemountain/town
 	title = "Town Template"
 	supervisors = "absolutely everyone"
 	economic_power = 1
@@ -10,7 +10,7 @@
 	skill_points = 20
 
 
-/datum/job/ministation/town/alderman
+/datum/job/battlemountain/town/alderman
 	title = "Alderman"
 	total_positions = 1
 	spawn_positions = 1
@@ -21,7 +21,7 @@
 	skill_points = 32
 
 
-/datum/job/ministation/town/merchant
+/datum/job/battlemountain/town/merchant
 	title = "Merchant"
 	total_positions = 1
 	spawn_positions = 1
@@ -34,7 +34,7 @@
 	skill_points = 30
 
 
-/datum/job/ministation/town/provost
+/datum/job/battlemountain/town/provost
 	title = "Provost"
 	total_positions = 2
 	spawn_positions = 2
@@ -48,7 +48,7 @@
 	skill_points = 30
 
 
-/datum/job/ministation/town/citizen
+/datum/job/battlemountain/town/citizen
 	title = "Inner Wall Citizen"
 	total_positions = 4
 	spawn_positions = 4

@@ -1,11 +1,11 @@
-/obj/abstract/map_data/ministation
+/obj/abstract/map_data/battlemountain
 	height = 2
 
-/datum/level_data/main_level/ministation
+/datum/level_data/main_level/battlemountain
 	use_global_exterior_ambience = FALSE
 	base_area = null
 	base_turf = /turf/floor/dirt
-	abstract_type = /datum/level_data/main_level/ministation
+	abstract_type = /datum/level_data/main_level/battlemountain
 	ambient_light_level = 1
 	ambient_light_color = "#f3e6ca"
 	//strata = /decl/strata/shaded_hills
@@ -30,7 +30,7 @@
 	time_in_cycle = rand(cycle_duration)
 	..()
 
-/datum/level_data/main_level/ministation/level1
+/datum/level_data/main_level/battlemountain/level1
 	name = "Wasteland"
 	level_id = "wasteland"
 
@@ -40,17 +40,17 @@
 	)
 
 
-/obj/abstract/level_data_spawner/ministation
-	level_data_type = /datum/level_data/main_level/ministation
+/obj/abstract/level_data_spawner/battlemountain
+	level_data_type = /datum/level_data/main_level/battlemountain
 
-/obj/abstract/level_data_spawner/ministation/wasteland
-	level_data_type = /datum/level_data/main_level/ministation/level1
+/obj/abstract/level_data_spawner/battlemountain/wasteland
+	level_data_type = /datum/level_data/main_level/battlemountain/level1
 
-///obj/abstract/level_data_spawner/ministation/wasteland2
-	//level_data_type = /datum/level_data/main_level/ministation/level2
+///obj/abstract/level_data_spawner/battlemountain/wasteland2
+	//level_data_type = /datum/level_data/main_level/battlemountain/level2
 
-///obj/abstract/level_data_spawner/ministation/wasteland3
-	//level_data_type = /datum/level_data/main_level/ministation/level3
+///obj/abstract/level_data_spawner/battlemountain/wasteland3
+	//level_data_type = /datum/level_data/main_level/battlemountain/level3
 
-///obj/abstract/level_data_spawner/ministation
-	//level_data_type = /datum/level_data/main_level/ministation
+///obj/abstract/level_data_spawner/battlemountain
+	//level_data_type = /datum/level_data/main_level/battlemountain

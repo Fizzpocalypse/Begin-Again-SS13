@@ -1,4 +1,4 @@
-/datum/job/ministation/wastrel
+/datum/job/battlemountain/wastrel
 	title = "Wastelander"
 	total_positions = -1
 	spawn_positions = -1
